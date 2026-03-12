@@ -1,0 +1,20 @@
+{
+  "name": "personal-canvas-parser",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "parse": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "pg": "^8.13.1",
+    "pgvector": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.12.0",
+    "@types/pg": "^8.11.11",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
